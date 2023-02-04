@@ -1,0 +1,25 @@
+.work-in-progress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 100%;
+    background-color: #000000b3;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.background {
+    background-image: url("../../assets/bckgrndWorkIn.jpg");
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p , h1 {
+    color: white !important;
+}

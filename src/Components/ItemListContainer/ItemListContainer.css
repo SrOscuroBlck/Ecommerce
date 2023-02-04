@@ -1,0 +1,34 @@
+.container {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+}
+.back {
+    background-color: #1c1c1c !important;
+}
+
+h5 {
+    color: black !important;
+}
+.card-text {
+    color: #414141 !important;
+}
+
+.loader {
+    padding: 5vh;
+}
+
+
+@media screen and (max-width: 768px ) {
+    #card {
+        width: 60vw !important;
+    }
+    .container {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    #itemContainer {
+        width: fit-content;
+        height: fit-content;
+    }
+}
